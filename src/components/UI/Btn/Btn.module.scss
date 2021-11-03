@@ -1,0 +1,17 @@
+button {
+  max-width: 100px;
+  padding: 7px 15px;
+
+  color: #fff;
+
+  background-color: #295185;
+  border: 1px solid transparent;
+  border-radius: 15px;
+
+  &:hover {
+    color: #295185;
+
+    background-color: #fff;
+    border: 1px solid #295185;
+  }
+}

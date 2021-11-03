@@ -1,3 +1,14 @@
-import "./global.scss";
+import { Switch, Route } from 'react-router-dom';
 
-export const App = () => <p>Book store</p>;
+import { Home } from 'pages/Home/Home';
+
+import classes from './App.module.scss';
+import './global.scss';
+
+export const App = () => (
+  <div className={classes.container}>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
+  </div>
+);
