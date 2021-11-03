@@ -33,4 +33,4 @@ Somnium Book Store является тестовым заданием для к�
 
 # Links
 
-[Live Project](vigilant-wright-71a2cb.netlify.app)
+[Live Project](https://vigilant-wright-71a2cb.netlify.app/)
