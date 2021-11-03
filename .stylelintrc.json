@@ -1,0 +1,22 @@
+{
+  "plugins": ["stylelint-order"],
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-rational-order",
+    "stylelint-config-prettier",
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": null,
+    "max-nesting-depth": 3,
+    "selector-class-pattern": "^([a-z][a-z0-9]*)(_[a-z0-9]+)*$",
+    "order/properties-order": [],
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": true
+      }
+    ]
+  }
+}
