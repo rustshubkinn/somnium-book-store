@@ -1,9 +1,9 @@
 import { func, string } from 'prop-types';
 import classNames from 'classnames';
 
-import classes from './Btn.module.scss';
+import classes from './Button.module.scss';
 
-export const Btn = ({ onClick, children, className }) => (
+export const Button = ({ onClick, children, className }) => (
   <button
     type="button"
     onClick={onClick}
@@ -13,13 +13,13 @@ export const Btn = ({ onClick, children, className }) => (
   </button>
 );
 
-Btn.propTypes = {
+Button.propTypes = {
   onClick: func,
   children: string,
   className: string,
 };
 
-Btn.defaultProps = {
+Button.defaultProps = {
   onClick: null,
   children: null,
   className: null,
